@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import './globals.css'
+import { Header } from './components/header/Header'
 
 function App() {
 
   return (
     <>
+    <Header />
     </>
   )
 }
