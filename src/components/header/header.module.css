@@ -1,14 +1,13 @@
 .header{
-    background-color: #202024;
-    color: white;
+    background-color: var(--gray-800);
     display: flex;
     justify-content: center;   
-    padding: 15px;
-    align-items: center;
+    color: white;
+    padding: 1.25rem 0;
 }
 
-img{
-    width: 50px;
+.header img{
+    width: 2rem;
 }
 
 h3{
