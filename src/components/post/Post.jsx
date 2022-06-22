@@ -1,3 +1,4 @@
+import { Comment } from '../comment/comment'
 import styles from './post.module.css'
 
 export function Post() {
@@ -24,6 +25,19 @@ export function Post() {
                         Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up. Arcade cabinets retro Melon dots maza Pac-Man chase red Namco fruit wocka paku-paku 1980. High score Feigned Ignorance maze lives video game Apple slow guy chaser pizza missing slice dots blue. Fluffy pink unicorns are a popular status symbol among macho men. I think I will buy the red car, or I will lease the blue one.
                     </p>
                 </div>
+
+                <form className={styles.commentForm}>
+                    <strong>Deixe seu feedback</strong>
+                    <textarea 
+                        placeholder='Deixe seu comentário'
+                    />
+                    <button type='submit'>Publicar</button>
+                </form>
+            <div className={styles.commentList}>
+                <Comment />
+                <Comment />
+                <Comment />
+            </div>
             </article>
         </>
     )
