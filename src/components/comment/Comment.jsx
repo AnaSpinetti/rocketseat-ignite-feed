@@ -1,4 +1,5 @@
 import { Trash } from 'phosphor-react';
+import { ThumbsUp } from 'phosphor-react';
 import styles from './comment.module.css';
 
 export function Comment(){
@@ -24,7 +25,7 @@ export function Comment(){
 
                 <footer>
                     <button>
-                        <ThumbsUp />
+                        <ThumbsUp size={20} />
                         Aplaudir <span>20</span>
                     </button>
                 </footer>
