@@ -49,8 +49,6 @@ function App() {
     },
   ];
 
-
-
   return (
     <>
       <Header />
